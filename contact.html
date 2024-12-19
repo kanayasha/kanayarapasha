@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTS Pemrograman web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Bahasa Pemrograman</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="content-wrapper">
+        <aside>
+            <h4>Nama : Kanaya Rapasha</h4>
+            <p>NIM : 241011701320</p>
+        </aside>
+
+        <main>
+            <div class="form">
+            <h2>Form Lengkap</h2>
+            <form action="#" method="post">
+                <!-- Input Teks -->
+                <div class="form-group">
+                    <label for="nama">Nama:</label>
+                    <input type="text" id="nama" name="nama" required>
+                </div>
+
+                <!-- Radio Button -->
+                <div class="form-group">
+                    <label>Jenis Kelamin:</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="jenis_kelamin" value="Laki-laki" required> Laki-laki</label>
+                        <label><input type="radio" name="jenis_kelamin" value="Perempuan" required> Perempuan</label>
+                    </div>
+                </div>
+
+                <!-- Checkbox -->
+                <div class="form-group">
+                    <label>Hobi:</label>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="hobi" value="Membaca"> Membaca</label>
+                        <label><input type="checkbox" name="hobi" value="Olahraga"> Olahraga</label>
+                        <label><input type="checkbox" name="hobi" value="Traveling"> Traveling</label>
+                    </div>
+                </div>
+
+                <!-- Dropdown -->
+                <div class="form-group">
+                    <label for="pendidikan">Pendidikan Terakhir:</label>
+                    <select id="pendidikan" name="pendidikan" required>
+                        <option value="">Pilih Pendidikan</option>
+                        <option value="SMA">SMA</option>
+                        <option value="D3">D3</option>
+                        <option value="S1">S1</option>
+                        <option value="S2">S2</option>
+                    </select>
+                </div>
+
+                <!-- Textarea -->
+                <div class="form-group">
+                    <label for="alamat">Alamat:</label>
+                    <textarea id="alamat" name="alamat" rows="4" required></textarea>
+                </div>
+
+                <!-- Tombol Kirim -->
+                <div class="form-group">
+                    <button type="submit">Kirim</button>
+                </div>
+            </form>
+        </div>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; Footer</p>
+    </footer>
+</body>
+
+</html>

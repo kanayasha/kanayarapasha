@@ -1,0 +1,167 @@
+/* Resetting some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styles for body */
+body {
+    font-family: "Times New Roman", serif;
+    line-height: 1.6;
+    background-color: #a3dde3;
+    color: #000000;
+}
+
+/* Styling the header */
+header {
+    background: #2f3436;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Styling the navigation */
+nav {
+    background: #3b3c3d;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: center;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Layout for content wrapper */
+.content-wrapper {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Styling the aside */
+aside {
+    width: 20%;
+    background: #f7fbff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+aside ul {
+    padding-left: 20px;
+}
+
+/* Styling the main content */
+main {
+    width: 75%;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 20px;
+}
+
+h4 {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+
+/* Footer styles */
+footer {
+    background: #2f3436;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: 5px #ccc;
+    margin-top: 10px;
+}
+
+table,
+th,
+td {
+    border: 2px solid #2f3436;
+    padding: 8px;
+}
+
+th, td {
+    padding: 5px;
+  }
+  th {
+    background-color: #f7fbff;
+  }
+  tr:nth-child(even) {
+    background-color: lightcyan;
+  }
+  tr:nth-child(odd) {
+    background-color: lightcyan;
+  }
+
+iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+}
+
+/* Style sederhana untuk form */
+.form-container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #020202;
+    border-radius: 5px;
+}
+
+.form {
+	border: 2px solid #000;
+	padding : 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.form-group .radio-group,
+.form-group .checkbox-group {
+    display: flex;
+    gap: 10px;
+}
+
+.form-group .radio-group label,
+.form-group .checkbox-group label {
+    display: inline-block;
+}
